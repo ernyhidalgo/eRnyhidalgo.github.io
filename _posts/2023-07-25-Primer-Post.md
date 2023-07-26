@@ -7,11 +7,10 @@ header:
   teaser: /assets/images/slae32.png
 categories:
   - Desarrollo
-  - infosec
 tags:
-  - slae
-  - assembly
-  - tcp bind shellcode
+  - reparación
+  - cyberseguridad
+  - videogames
 ---
 Y EMPEZAMOS!!! Bienvenidos a mi garaje, acá podrán aprender junto conmigo todas mis pasiones, habilidades y hobbies.
 
