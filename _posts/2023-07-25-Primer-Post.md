@@ -27,13 +27,13 @@ RESUMEN:
 3. Titulo: Ing. Informático (2017) 
 
 4. Experiencia:
-      Mantenimiento preventivo y correctivo de equipos de computo (Multimarca y Apple)
-      Instalación de C.C.T.V.
-      Conocimientos básicos de Java, Python (mejorando ya sabrán ¿por qué?), HTML (gracias a esto acá estamos :D )
+Mantenimiento preventivo y correctivo de equipos de computo (Multimarca y Apple)
+Instalación de C.C.T.V.
+Conocimientos básicos de Java, Python (mejorando ya sabrán ¿por qué?), HTML (gracias a esto acá estamos :D ) y software en general
 
 5. Proyectos:
-        Cyber Seguridad
-        Mejorar el ingles
+Cyber Seguridad
+Mejorar el ingles
 
 
 
