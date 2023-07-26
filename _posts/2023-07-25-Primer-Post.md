@@ -27,7 +27,7 @@ RESUMEN:
 
 4. Experiencia: Mantenimiento preventivo y correctivo de equipos de computo (Multimarca y Apple) - Instalación de C.C.T.V. - Conocimientos básicos de Java, Python (mejorando ya sabrán ¿por qué?), HTML (gracias a esto acá estamos :D ) - Software en general
 
-5. Proyectos: Cyber Seguridad - Mejorar el ingles
+5. Proyectos: Cyber Seguridad - Mejorar el ingles - Ing. de Pronts
 
 
 
