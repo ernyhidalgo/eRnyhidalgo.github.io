@@ -1,29 +1,36 @@
 ---
 layout: single
-title: Ready - Hack The Box
-excerpt: "Ready was a pretty straighforward box to get an initial shell on: We identify that's it running a vulnerable instance of Gitlab and we use an exploit against version 11.4.7 to land a shell. Once inside, we quickly figure out we're in a container and by looking at the docker compose file we can see the container is running in privileged mode. We then mount the host filesystem within the container then we can access the flag or add our SSH keys to the host root user home directory."
-date: 2021-05-15
+title: Lo primero es lo primero
+excerpt: "Bueno empezamos, lo primero es saber ¿Qué deseamos hacer? y ¿A donde apuntar? por eso lo primero es crear todas las herramientas para poder trabajar de forma divertida y ordenada"
+date: 2023-07-25
 classes: wide
 header:
   teaser: /assets/images/htb-writeup-ready/ready_logo.png
   teaser_home_page: true
   icon: /assets/images/hackthebox.webp
 categories:
-  - hackthebox
-  - infosec
+  - Desarrollo
+  - software
 tags:
-  - linux
-  - gitlab
-  - cve
-  - docker
-  - privileged container
+  - kali
+  - python
+  - custom
+  - windows
+  - virtualbox
 ---
 
 ![](/assets/images/htb-writeup-ready/ready_logo.png)
 
-Ready was a pretty straighforward box to get an initial shell on: We identify that's it running a vulnerable instance of Gitlab and we use an exploit against version 11.4.7 to land a shell. Once inside, we quickly figure out we're in a container and by looking at the docker compose file we can see the container is running in privileged mode. We then mount the host filesystem within the container then we can access the flag or add our SSH keys to the host root user home directory.
+Bueno empezamos, lo primero es saber ¿Qué deseamos hacer? y ¿A donde apuntar? por eso lo primero es crear todas las herramientas para poder trabajar de forma divertida y ordenada
 
-## Portscan
+## Lo primero, descargar Kali Linux y Virtualbox
+
+Necesitamos descargar:
+
+1. Kali linux 
+
+Personalmente se que existen otras distribuciones para poder trabajar el pentesting (o cyberseguridad) pero simplemente le tengo afecto a esta distribución de Linux
+
 
 ```
 sudo nmap -T4 -sC -sV -oA scan -p- 10.129.149.31
