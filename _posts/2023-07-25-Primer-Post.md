@@ -29,7 +29,7 @@ RESUMEN:
 4. Experiencia:
     Mantenimiento preventivo y correctivo de equipos de computo (Multimarca y Apple)
     Instalación de C.C.T.V.
-    Conocimientos basicos de Java, Python (mejorando ya sabrán ¿por qué?), HTML
+    Conocimientos básicos de Java, Python (mejorando ya sabrán ¿por qué?), HTML (gracias a esto acá estamos :D )
 
 5. Proyectos:
     Cyber Seguridad
